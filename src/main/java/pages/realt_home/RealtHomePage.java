@@ -1,5 +1,6 @@
 package pages.realt_home;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,8 +16,11 @@ public class RealtHomePage extends BasePage {
     private final By getOptionToThreeRooms = By.xpath("//option[contains(text(),'3к квартира')]");
     private final By findBnt = By.xpath("//div[@id='residentialInputs']//a[text()='Найти']");
 
+
     public RealtHomePage enterCountRooms (){
-        driver.findElement(countRooms).click();
+
+            driver.findElement(countRooms).click();
+
         driver.findElement(optionToRooms).click();
 
         return this;
@@ -24,6 +28,7 @@ public class RealtHomePage extends BasePage {
 
     public RealtHomePage enterCountThreeRoom(){
         driver.findElement(countRooms).click();
+
         driver.findElement(getOptionToThreeRooms).click();
 
         return this;

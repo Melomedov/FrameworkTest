@@ -4,6 +4,7 @@
     <test name="E:/Automat_testing/FrameworkTest">
         <classes>
             <class name="tests.searchApartment.SearchApartmentTest"/>
+            <class name="tests.searchApartment.SearchFirstPfoneAdsThreeApartment"></class>
 
         </classes>
     </test>
