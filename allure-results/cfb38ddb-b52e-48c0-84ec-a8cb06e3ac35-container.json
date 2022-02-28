@@ -1,1 +1,0 @@
-{"uuid":"cfb38ddb-b52e-48c0-84ec-a8cb06e3ac35","name":"FrameworkTest","start":1645528085416,"stop":1645528104459,"children":["9e6c1a67-d31e-4827-b3a8-24e14b92da28"],"afters":[{"name":"clearCookiesAndLocalStorage","status":"passed","stage":"finished","description":"","start":1645528104432,"stop":1645528104458}]}
